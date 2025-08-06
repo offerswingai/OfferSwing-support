@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OfferSwing 支援中心</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .support-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .contact-section h2 {
+            color: #1f2937;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 15px;
+            background: #f9fafb;
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+        
+        .contact-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            background: rgba(59, 130, 246, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 24px;
+        }
+        
+        .contact-info h3 {
+            margin-bottom: 5px;
+            color: #1f2937;
+        }
+        
+        .contact-info p {
+            color: #3b82f6;
+            margin-bottom: 3px;
+        }
+        
+        .contact-info small {
+            color: #9ca3af;
+        }
+        
+        .faq-section {
+            margin-top: 30px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #6b7280;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .support-card {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>OfferSwing 支援中心</h1>
+            <p>AI 面試助手 - 專業支援服務</p>
+        </div>
+        
+        <div class="support-card">
+            <div class="contact-section">
+                <h2>聯絡我們</h2>
+                <p style="margin-bottom: 30px; color: #6b7280;">
+                    我們很樂意為您提供支援。請選擇以下任一聯絡方式，我們將在 1-2 個工作天內回覆您。
+                </p>
+                
+                <a href="mailto:offerswingai@gmail.com?subject=OfferSwing%20支援請求" class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-info">
+                        <h3>電子郵件支援</h3>
+                        <p>offerswingai@gmail.com</p>
+                        <small>回覆時間：1-2 個工作天</small>
+                    </div>
+                </a>
+                
+                <a href="https://www.instagram.com/offerswing.tw/" target="_blank" class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-info">
+                        <h3>Instagram</h3>
+                        <p>@offerswing.tw</p>
+                        <small>追蹤我們的最新消息</small>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="faq-section">
+                <h2>常見問題</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何開始使用 AI 面試功能？</div>
+                    <div class="faq-answer">
+                        A: 註冊登入後，點選首頁的「AI 深度面試」即可開始。系統會根據您的履歷生成個人化的面試問題。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: Token 如何計算和重置？</div>
+                    <div class="faq-answer">
+                        A: 免費用戶每月有 10 個 Token，付費用戶有更多額度。Token 會在每月 1 日自動重置，不會累積到下個月。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: 我的面試錄影是否安全？</div>
+                    <div class="faq-answer">
+                        A: 您的隱私是我們的首要考量。所有錄影資料都經過加密儲存，且您可以隨時刪除。詳情請參閱應用程式內的隱私政策。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何取消訂閱？</div>
+                    <div class="faq-answer">
+                        A: iOS 用戶請到「設定」>「Apple ID」>「訂閱項目」中取消。Android 用戶請到 Google Play 的「訂閱項目」中取消。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
